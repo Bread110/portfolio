@@ -81,7 +81,6 @@ const CardCarousel = ({ children }) => {
       container.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", updateScales);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items.length]);
 
   const goPrev = () => {
