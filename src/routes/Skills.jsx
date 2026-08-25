@@ -101,7 +101,7 @@ const Skills = () => {
         </h2>
         <p className="text-gray-200 text-sm mb-6">Beyond the code</p>
 
-        <div className="w-full justify-center  flex flex-wrap gap-6 items-start">
+        <div className="w-full justify-center mb-20  flex flex-wrap gap-6 items-start">
           {softSkills.map(({ title, description }) => {
             const isOpen = openSoftCard === title;
             return (

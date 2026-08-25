@@ -56,7 +56,7 @@ const NavBar = () => {
           <button
             key={id}
             onClick={() => handleClick(id)}
-            className={`rounded-full w-full sm:w-19 h-5 flex justify-center items-center bg-[#000000] text-white gap-2 p-2 hover:-translate-y-0.5 ${
+            className={`rounded-full w-full text-[7px] border-white border sm:w-19 h-5 flex justify-center items-center bg-[#000000] text-white gap-2 p-2 hover:-translate-y-0.5 ${
               active === id ? "text-[#004f95] font-bold" : "text-[#070707]"
             }`}
           >

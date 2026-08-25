@@ -30,7 +30,7 @@ const HomeCards = () => {
             WELCOME FRIENDS
           </span>
           <span
-            className="inline-block w-[2px] h-[0.8em] bg-black align-middle
+            className="inline-block w-0.5 h-[0.8em] bg-black align-middle
     sm:animate-[blink_.8s_step-end_infinite] animate-none"
           ></span>
         </h1>

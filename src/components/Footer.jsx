@@ -1,4 +1,4 @@
-import { FiGithub, FiMail } from "react-icons/fi";
+import { FiGithub, FiMail, FiPhone } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -34,6 +34,14 @@ const Footer = () => {
           >
             <FiGithub className="text-lg" />
             GitHub
+          </a>
+
+          <a
+            href="tel:+529838392326"
+            className="flex items-center gap-2 border border-white/20 px-6 py-3 rounded-full hover:border-[#7ca3e5] hover:text-[#7ca3e5] transition-colors w-full sm:w-auto justify-center"
+          >
+            <FiPhone className="text-lg" />
+            +52 983 839-2326
           </a>
         </div>
       </div>

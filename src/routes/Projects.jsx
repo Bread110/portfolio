@@ -67,7 +67,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.title}
-            className="bg-[#D8CDBC] text-black rounded-[5px] overflow-hidden"
+            className="bg-[#070605] text-white rounded-[5px] overflow-hidden"
           >
             <SlideShow
               images={project.image}
@@ -82,7 +82,7 @@ const Projects = () => {
                   </h3>
                 </div>
 
-                <p className="text-sm text-gray-700 mb-2">
+                <p className="text-sm text-gray-200 mb-2">
                   {project.organization && ` ${project.organization}`},{" "}
                   {project.year}
                 </p>
@@ -91,7 +91,7 @@ const Projects = () => {
                   {project.type}
                 </span>
 
-                <p className="text-gray-600 text-sm mb-4">
+                <p className="text-gray-400 text-sm mb-4">
                   {project.description}
                 </p>
 
@@ -99,7 +99,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs bg-white px-2 py-1 rounded"
+                      className="text-xs bg-white  text-black px-2 py-1 rounded"
                     >
                       {tag}
                     </span>
