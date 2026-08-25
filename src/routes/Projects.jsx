@@ -19,8 +19,8 @@ const projects = [
     type: "Internship",
     organization: "Universidad Autónoma Del Estado De Quintana Roo",
     description:
-      "Real-time monitoring and motor control system receiving live sensor data from a wastewater treatment plant.",
-    tags: ["React", "PHP", "MySQL"],
+      "Real-time web system for monitoring sensors, controlling treatment motors, and analyzing wastewater data.",
+    tags: ["Python", "CSS", "HTML", "JavaScript", "PostgreSQL"],
     image: [analysis, motor],
   },
 
@@ -31,7 +31,7 @@ const projects = [
     organization: "The National Emergency Management Organization (NEMO)",
     description:
       "Registration and budgeting platform for a shelter, streamlining intake and financial tracking.",
-    tags: ["Python", "Html", "CSS", "JavaScript", "SupaBase"],
+    tags: ["Python", "HTML", "CSS", "JavaScript", "PostgreSQL"],
     image: [login, home2, shelters, project, reports],
   },
 
