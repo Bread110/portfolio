@@ -55,10 +55,11 @@ const Projects = () => {
           My Work
         </h1>
         <p className="max-w-2xl text-center text-sm sm:text-base mt-4">
-          During my 2 years of practicing my programming skills, I have managed
-          to create over 4 projects, impacting my understanding and learning a
-          lot of coding. Each project being school based, personal, or done in
-          my internship.
+          Throughout my development journey, I've worked on projects spanning
+          academic research, personal initiatives, and professional internships.
+          Each project has strengthened my ability to transform ideas into
+          functional, well-crafted applications while deepening my understanding
+          of modern web development.
         </p>
       </div>
 
