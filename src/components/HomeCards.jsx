@@ -23,8 +23,8 @@ const techStack = [
 
 const HomeCards = () => {
   return (
-    <div className="relative min-h-screen text-gray-100 flex flex-col justify-center items-center px-4 py-24 md:py-32">
-      <div className="absolute top-6 sm:top-10 md:top-15 text-center px-4">
+    <div className="relative min-h-screen text-gray-100 flex flex-col justify-center items-center px-4 py-27 md:py-32">
+      <div className="absolute top-20 sm:top-25 md:top-25 text-center px-4">
         <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inline-block overflow-hidden font-mono">
           <span className="inline-block sm:animate-[typing_3s_steps(24)_infinite_forwards] animate-none whitespace-nowrap">
             WELCOME FRIENDS
@@ -42,7 +42,7 @@ const HomeCards = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-6xl flex flex-col lg:flex-row justify-center lg:justify-end items-center lg:items-start gap-10 mt-10 lg:mt-30 rounded-2xl">
+      <div className="w-full max-w-6xl flex flex-col lg:flex-row justify-center lg:justify-end items-center lg:items-start gap-10 mt-5 lg:mt-30 rounded-2xl">
         <div className="w-full lg:max-w-xl p-4 sm:p-6 lg:p-10">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">Hi, I'm Gael</h2>
           <p className="text-base sm:text-lg text-justify">
