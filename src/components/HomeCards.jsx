@@ -25,16 +25,19 @@ const HomeCards = () => {
   return (
     <div className="relative min-h-screen text-gray-100 flex flex-col justify-center items-center px-4 py-24 md:py-32">
       <div className="absolute top-6 sm:top-10 md:top-15 text-center px-4">
-        <h1
-          className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inline-block overflow-hidden whitespace-nowrap border-r-2 border-black font-mono
-      animate-[typing_3s_steps(24)_infinite_forwards,blink_.8s_6]"
-        >
-          WELCOME FRIENDS
+        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inline-block overflow-hidden font-mono">
+          <span className="inline-block sm:animate-[typing_3s_steps(24)_infinite_forwards] animate-none whitespace-nowrap">
+            WELCOME FRIENDS
+          </span>
+          <span
+            className="inline-block w-[2px] h-[0.8em] bg-black align-middle
+    sm:animate-[blink_.8s_step-end_infinite] animate-none"
+          ></span>
         </h1>
 
-        <div className="opacity-0 animate-[fadeIn_0.6s_ease_3.2s_forwards]">
+        <div className="opacity-0 sm:animate-[fadeIn_0.6s_ease_3.2s_forwards]">
           <p className="text-sm sm:text-base md:text-lg text-[#afadad]">
-            Lets build and improve the community together!
+            Let's build and improve the community together!
           </p>
         </div>
       </div>
